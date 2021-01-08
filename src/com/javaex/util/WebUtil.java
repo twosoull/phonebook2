@@ -1,4 +1,4 @@
-package com.javaex.webutil;
+package com.javaex.util;
 
 import java.io.IOException;
 
