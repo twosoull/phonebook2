@@ -61,6 +61,8 @@ public class PhoneController extends HttpServlet {
 			//dao personInsert
 			phonedao.personInsert(personvo);
 			response.sendRedirect("/phonebook2/pbc?action=list");
+		}else if("delete".equals(action)) {
+			System.out.println("삭제");
 		}
 	}
 

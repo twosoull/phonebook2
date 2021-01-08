@@ -35,7 +35,10 @@
 			<td>회사(company)</td>
 			<td><%=personList.get(i).getCompany()%></td>
 		</tr>
-	
+		<tr>
+			<td><a href="">수정</a></td>
+			<td><a href="/phonebook2/pbc?action=delete&no=<%=personList.get(i).getPersonId()%>">삭제</a></td>			
+		</tr>
 	</table>
 	<br>
 	<%} %>
