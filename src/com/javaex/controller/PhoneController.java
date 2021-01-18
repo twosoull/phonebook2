@@ -108,7 +108,7 @@ public class PhoneController extends HttpServlet {
 
 			// html --> 엄청 복잡하다 -->jsp가 편하다
 			// 데이터 전달
-			request.setAttribute("pList", personList);
+			request.setAttribute("personList", personList);
 
 			// jsp에 포워드 시킨다.
 			/*

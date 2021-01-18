@@ -16,9 +16,9 @@ public class PhoneDao {
 	private String url = "jdbc:oracle:thin:@localhost:1521:xe";
 	private String id = "phonedb";
 	private String pw = "phonedb";
-	Connection conn = null;
-	PreparedStatement pstmt = null;
-	ResultSet rs = null;
+	private Connection conn = null;
+	private PreparedStatement pstmt = null;
+	private ResultSet rs = null;
 
 	// 생성자
 	// 메소드 g/s
